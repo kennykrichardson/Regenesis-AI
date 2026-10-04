@@ -1,0 +1,85 @@
+# ============================================================
+# Regenesis
+# Git Ignore
+# ============================================================
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+.Python
+
+.regenesis/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ----------------------------
+# Environment / secrets
+# ----------------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------------
+# Node / Vite
+# ----------------------------
+node_modules/
+frontend/node_modules/
+
+dist/
+frontend/dist/
+
+.vite/
+frontend/.vite/
+
+coverage/
+frontend/coverage/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----------------------------
+# OS
+# ----------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ----------------------------
+# Editors / IDEs
+# ----------------------------
+.idea/
+.vscode/
+
+# ----------------------------
+# Temporary / generated files
+# ----------------------------
+*.tmp
+*.temp
+*.log
+
+# Python build artifacts
+build/
+develop-eggs/
+*.egg-info/
+.eggs/
+
+# ----------------------------
+# Local caches
+# ----------------------------
+.cache/
+.pytest_cache/
